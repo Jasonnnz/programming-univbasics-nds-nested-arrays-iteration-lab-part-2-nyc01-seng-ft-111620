@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     column = 0
     src[row].sort
     while column < src[row].length {
-      min_values.push[src[row][0]]
+      min_values.push(src[row][0])
       column += 1 
     }
     row += 1 
